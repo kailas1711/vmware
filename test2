@@ -1,0 +1,58 @@
+What is GIT
+Linux Torvalds
+git
+manage version.
+parelal development is possible in GIT.
+Git is versioning tool.
+Git insialised === 
+when we use command git init then we define that , this is my local repo.
+Every single local repo user update on remote repo.
+if they have merge issue, then developer will solve this issue.
+git we do file level changes so we required versioning .sha hashing size is 42 bit .so we dont have commits limit.
+when we do git init then git create one hidden folder
+Logical changes go towares GIT
+Physical changes in our machine volume.
+when we add and commit in local directory then it become local repo.
+to use  this local repo to other user, we push this code to remote repo.
+origin = remote repo address
+
+
+
+
+maintain a history.
+diffrence between svn and git
+svn is cnetralised
+git is distributed+ centralised.
+Distrubuted:- 
+centralised:-
+you dont have limits of commit.
+
+How git working?
+1)working directory:- normal directory in a operating system having  a disk space to work on.making code in working directory.
+git initialised 
+when  we create file in wokring directory, so that file in untrack stage.
+use git status calc.pyc----check status
+when we add this file in git, so that file in track or staging stage
+git add -A calc.pyc
+-a use to all directory like
+if we have multiple sub directores ,so if we use -a then git will add each main and sub directory.
+-A only add file which avaiable in current directory.
+* will add all untrack file.
+
+git commit-get hash id.if we dont set user id , email id, then git will force to enter same information.
+after commiting file its go to local repo enviourmant.
+git -m "message" file name
+git log===check status of file
+git reflog
+git push ===command use to send code to remote directory
+best pratice-always do first git pull and then git push
+pull -fetch and merger
+fetch genrally avoid.
+git push=system should know , what is my remote repo.
+git clone===
+***remote origan address***
+git remote -v
+required communication between remote and local repo. we use either http or ssh protocol for commnucation.Also required authentication.
+
+
+ 
